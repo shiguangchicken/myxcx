@@ -1,0 +1,13 @@
+/* pages/game/snake.wxss */
+canvas{
+  background-color: gray;
+}
+page{
+  height: 100%;
+}
+text{
+  color: red;
+  font-size: 40;
+  text-align: center;
+  margin: 100px 50px;
+}

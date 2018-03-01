@@ -1,0 +1,6 @@
+<button bindtap="uploadIm">上传图片</button>
+<image src="{{imsrc}}"></image>
+<view><text class='title1'>图片中的文字内容为：</text></view>
+<view wx:for="{{info}}">
+  <text class='article'>{{item.words}}</text>
+</view>

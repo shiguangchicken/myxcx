@@ -1,0 +1,23 @@
+<view class='page'>
+  <view class="page__hd">
+      <view class="page__title">常用版块</view>
+      <view class="page__desc">小程序实验</view>
+  </view>
+  <view class='page__bd page__bd__spacing'>
+    <view class="weui-flex">
+      <view class="weui-flex__item"><navigator url='../BaiduOcr/ocr'><view class="placeholder1">图像文字识别</view></navigator></view>
+    </view>
+    <view class='weui-flex '>
+        <view class="weui-flex__item"><view class="placeholder2">资料上传</view></view>
+        <view class="weui-flex__item"><view class="placeholder3">资料下载</view></view>
+    </view>
+      <view class='weui-flex '>
+        <view class="weui-flex__item"><navigator url='../game/snake'><view class="placeholder4">小游戏</view></navigator></view>
+        <view class="weui-flex__item"><view class="placeholder5">实验室</view></view>
+      </view>
+      <view class='weui-flex '>
+        <view class="weui-flex__item"><navigator url='../weather/weather'><view class="placeholder6">天气查询</view></navigator></view>
+        <view class="weui-flex__item"><view class="placeholder7">其他服务</view></view>
+      </view>
+  </view>
+</view>

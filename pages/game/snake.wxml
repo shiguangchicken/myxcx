@@ -1,0 +1,5 @@
+<!--pages/game/snake.wxml-->
+<canvas canvas-id='snakeCanvas' style="background-color:#ccc;height:100%; width:100%;"bindtouchstart='canvasStart' bindtouchmove='canvasMove' bindtouchend='canvasEnd' >
+<text>{{mes}}</text>
+<text bindtap='restart'>{{mes1}}</text>
+</canvas>

@@ -1,0 +1,3 @@
+/**index.wxss**/
+.title1{color: coral;font-size: 22px;}
+.article{color: fuchsia;font-size: 13px;}

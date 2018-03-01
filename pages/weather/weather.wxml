@@ -1,0 +1,8 @@
+<!--pages/weather/weather.wxml-->
+<view class='page'>
+  <view>{{location}}</view>
+  <view>{{wendu}}</view>
+  <view>{{ganmao}}</view>
+  <view>{{forecast}}</view>
+</view>
+
