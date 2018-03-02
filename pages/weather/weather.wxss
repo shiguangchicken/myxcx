@@ -1,1 +1,4 @@
 /* pages/weather/weather.wxss */
+.page{ background-color: #F0F8FF}
+.page__desc{color: #FF4500;font-size: 20px;text-align: center;}
+.weui-cell{background-color: #F0FFFF}
