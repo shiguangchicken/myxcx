@@ -13,7 +13,7 @@
     </view>
       <view class='weui-flex '>
         <view class="weui-flex__item"><navigator url='../game/snake'><view class="placeholder4">小游戏</view></navigator></view>
-        <view class="weui-flex__item"><view class="placeholder5">实验室</view></view>
+        <view class="weui-flex__item"><navigator url='../lab/lab'><view class="placeholder5">实验室</view></navigator></view>
       </view>
       <view class='weui-flex '>
         <view class="weui-flex__item"><navigator url='../weather/weather'><view class="placeholder6">天气查询</view></navigator></view>

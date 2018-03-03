@@ -1,2 +1,18 @@
-<!--pages/lab/lab.wxml-->
-<text>pages/lab/lab.wxml</text>
+<view class='container'>
+  <view class='title'>实验室登录</view>
+  <form bindsubmit='login' bindreset='reset'>
+    <view class='login-body'>
+      <view class='count'>账号</view>
+      <view><input type='text' name='c_number'></input></view>
+    </view>
+    <view class='login-body'>
+      <view class='count'>密码</view>
+      <view><input type='password' name='pw'></input></view>
+    </view>
+    <view class='login-body'>
+      <button form-type='submit'>登录</button>
+      <button>重置</button>
+    </view>
+  </form>
+  <text class='notice'>{{notice}}</text>
+</view>

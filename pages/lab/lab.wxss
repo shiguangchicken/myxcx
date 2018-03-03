@@ -1,1 +1,15 @@
-/* pages/lab/lab.wxss */
+/* pages/index/index.wxss */
+input{border: solid 1px;}
+.container{
+  margin: 4rem 2rem;
+  background-color: darkturquoise;
+}
+.title{height: 2.3rem;text-align: center;font-size: 20px;}
+.login-body{
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem;
+}
+.count{margin: 0px 10px;height: 1.6rem;}
+button{height: 2rem;background-color: grey;font-size: 14px;padding-bottom: 10px;}
+.notice{text-align: center;color: red;}
