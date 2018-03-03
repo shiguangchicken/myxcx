@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/BaiduOcr/ocr",
     "pages/game/snake",
-    "pages/weather/weather"
+    "pages/weather/weather",
+    "pages/lab/lab"
   ],
   "window": {
     "backgroundTextStyle": "light",
